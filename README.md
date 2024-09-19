@@ -13,9 +13,9 @@
 
 ## Application Screenshots
 
-![Screenshot 1](https://github.com/user-attachments/assets/b9d2f9b1-a3ac-4bf7-9fbd-0acde0f8097b)
-![Screenshot 2](https://github.com/user-attachments/assets/13c16ce0-e02b-4ec7-9023-dbe69fa10fed)
-![Screenshot 3](https://github.com/user-attachments/assets/016efb25-266e-4b5d-a940-a54d0a623442)
+![Screenshot 1](https://github.com/user-attachments/assets/ce2ba8bb-2494-46e0-b269-cbcd63d27e51)
+![Screenshot 2](https://github.com/user-attachments/assets/e1cb48fc-ade7-43c3-9e9d-1887fe52861f)
+![Screenshot 3](https://github.com/user-attachments/assets/e4c76c09-6867-4677-954c-d55c90dbff9c)
 
 ## API Endpoints
 
