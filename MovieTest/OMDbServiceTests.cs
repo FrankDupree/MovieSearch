@@ -40,7 +40,7 @@ namespace MovieTest
         {
 
             // Arrange
-            var controller = new MovieController(_mockOmdbService.Object, _configuration, _mockRecentSearchesService.Object);
+            var controller = new MovieController(_mockOmdbService.Object, _mockRecentSearchesService.Object);
 
             // Act
             var result = await controller.Search(string.Empty);
@@ -67,7 +67,7 @@ namespace MovieTest
             _mockOmdbService.Setup(service => service.SearchMovieByTitleAsync(It.IsAny<string>()))
                 .ReturnsAsync(searchResult);
 
-            var controller = new MovieController(_mockOmdbService.Object, _configuration, _mockRecentSearchesService.Object);
+            var controller = new MovieController(_mockOmdbService.Object, _mockRecentSearchesService.Object);
 
             // Act
             var result = await controller.Search("Inception");
@@ -88,7 +88,7 @@ namespace MovieTest
             _mockRecentSearchesService.Setup(service => service.GetRecentSearches())
                 .Returns(recentSearches);
 
-            var controller = new MovieController(_mockOmdbService.Object, _configuration, _mockRecentSearchesService.Object);
+            var controller = new MovieController(_mockOmdbService.Object, _mockRecentSearchesService.Object);
 
             // Act
             var result = controller.GetRecentSearches();
@@ -116,7 +116,7 @@ namespace MovieTest
             _mockOmdbService.Setup(service => service.GetMovieDetailsAsync(It.IsAny<string>()))
                 .ReturnsAsync(movieDetails);
 
-            var controller = new MovieController(_mockOmdbService.Object, _configuration, _mockRecentSearchesService.Object);
+            var controller = new MovieController(_mockOmdbService.Object, _mockRecentSearchesService.Object);
 
             // Act
             var result = await controller.GetDetails("tt1375666");
